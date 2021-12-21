@@ -8,6 +8,7 @@ use App\Http\Controllers\MultaController;
 Route::get('/', [Controller::class, 'home']);
 Route::get('/layoutDash', [Controller::class, 'dash']);
 Route::get('/layoutAdmin', [Controller::class, 'admin']);
+Route::get('/loginAdmin', [Controller::class, 'logAdmin']);
 
 //rotas do automobilista
 Route::view('/login','login');

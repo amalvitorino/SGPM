@@ -1,13 +1,7 @@
 @extends ('layout')
 
 @section('conteudo')
-<h1 class="my-3">clente login page is here</h1>
-@if(Session::get('status'))
-<div class="alert alert-success alert-dismissible fade show" role="alert">
-    {{ Session::get('status')}}
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
-@endif
+<h1 class="my-3">Faça o login</h1>
 <div class="col-sm-6">
     <form method="post" action="">
         @csrf
@@ -21,7 +15,8 @@
             <input type="text" class="form-control" name="nome" placeholder="Digite o seu nome">
         </div>
 
-        <button type="submit" class="btn btn-primary">Salvar</button></button>
+        <button type="/" class="btn btn-primary">Salvar</button></button>
+        <!--amal-->
     </form>
 </div>
 

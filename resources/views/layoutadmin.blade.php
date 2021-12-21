@@ -62,7 +62,7 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Perfil</a></li>
                                 <li><a class="dropdown-item" href="#">Definicoes</a></li>
-                                <li><a class="dropdown-item" href="#">Sair</a></li>
+                                <li><a class="dropdown-item" href="/">Sair</a></li>
                             </ul>
                         </li>
                     </ul>

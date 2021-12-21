@@ -44,7 +44,7 @@
 
                     <div class="mb-3">
                         <label for="completename" class="form-label">Valor a Pagar: {{ $data->valorApagr }}</label>
-                        <img src="img/m-pesa.png" alt="">
+                        <img src="imgs/m-pesa.png" alt="">
                     </div>
 
                     <div class="mb-3">
@@ -67,7 +67,7 @@
 <h1 class="my-3">pagamento de Multa</h1>
 
 <div class="container my-2 factura print-container">
-    <h4 class="text-center">SGPM lda</h4>
+    <h4 class="text-center">INTRAT</h4>
     <h5 class="text-center">Factura de pagamento de Multa rodoviaria</h5>
     <div class="row">
         <div class="col-9 my-3">
@@ -100,16 +100,16 @@
                     <td>{{ $data2->nome }}</td>
                 </tr>
                 <tr>
-                    <td>Email:</td>
-                    <td>{{ $data2->email }}</td>
+                    <td>Documento:</td>
+                    <td>{{ $data2->tipoDoc }}</td>
                 </tr>
                 <tr>
-                    <td>Numero de BI:</td>
-                    <td>{{ $data2->numBI }}</td>
+                    <td>Numero de doc:</td>
+                    <td>{{ $data2->numDoc }}</td>
                 </tr>
                 <tr>
-                    <td>Telefone</td>
-                    <td>{{ $data2->telefone }}</td>
+                    <td>Telefone:</td>
+                    <td>------------</td>
                 </tr>
             </table>
         </div>

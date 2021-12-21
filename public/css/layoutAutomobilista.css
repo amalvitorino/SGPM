@@ -12,7 +12,7 @@
 }
 
 :root {
-  --main-color: #35c5e9;
+  --main-color: rgb(40, 167, 69);
   --black: #13131a;
   --bg: #010103;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);

@@ -33,7 +33,7 @@
 <h1 class="my-3">Recibo de Multa</h1>
 
 <div class="container my-2 factura print-container">
-    <h4 class="text-center">SGPM lda</h4>
+    <h4 class="text-center">INTRAT</h4>
     <h5 class="text-center">Recibo de pagamento de Multa rodoviaria</h5>
     <div class="row">
         <div class="col-9 my-3">

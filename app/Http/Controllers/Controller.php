@@ -22,4 +22,8 @@ class Controller extends BaseController
         return view('layoutAdmin');
     }
 
+    public function logAdmin(){
+        return view('loginAdmin');
+    }
+
 }
